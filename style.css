@@ -42,33 +42,129 @@ nav{
     justify-content: space-between;
     margin-top: 20px;
     display: cover;
-    background-color: #e0d5cd;
+    background-color: #ecccb5;
     align-items: center;
-}
-.hleft{
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-size: 20px;
-}
-.hright img{
     height: 300px;
-    margin-bottom: 0;
+    max-width: 1200px;
+    margin: auto;
 }
-.hright{
-    flex: 1;
-    background-image: url(./images/header_bg.png);
-    flex: right;
-    position: relative;
+/* .hero-left{
+    flex:1;
 }
-.inv{
-    background-color: #e0d7d1;
+.hero-right{
+    flex:1;
+} */
+ .hero-right img{
+    height: 305px;
+    padding: 15px 20px;
+ }
+ .hero-left h2 span{
+    color: #e76e18;
+ }
+ .hero-left{
+    padding: 15px 20px;
+ }
+ .hero-left p{
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 10px;
+ }
+ .hero-left button{
+    margin-top: 20px;
+ }
+ .left-btn{
+    margin-left: 20px;
     padding: 10px 20px;
     border-radius: 15px;
     font-weight: bold;
     font-size: 20px;
-    color: rgb(2, 14, 25);
-    border: 1px solid #f38638;
+    color: #e76e18;
+    border: none;
     cursor: pointer;
-}
+ }
+
+ .left-btn:hover{
+    background-color: #f38638;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+ }
+ .common-btn:hover{
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e76e18;
+    border: none;
+    cursor: pointer;
+    background-color: aliceblue;
+ }
+ .about-section{
+    background-color: #ebdcd1;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px 80px;
+    border-radius: 5px;
+ }
+ .flex-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+ }
+ .flex-section div{
+    background-color: white;
+    padding: 5px 10px;
+    
+ }
+ .flex-section div:hover{
+        background-color: wheat;
+        cursor: pointer;
+        transition: 0.5s ease;
+ }
+ .what-i-do{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f2eeee;
+    padding: 50px 80px;
+    border-radius: 5px;
+ }
+ .what-i-do p{
+    margin-bottom: 30px;
+    
+ }
+ .card-section{
+    display: flex;
+    justify-content: space-around;
+    
+    
+ }
+ .card{
+    flex: 1;
+    border: none;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(231, 227, 227);
+    text-align: left;
+ }
+ .card:hover{
+    scale: 1.05;
+    transition: 0.3s ease;
+ }
+ .card img{
+    margin: 10px 10px;
+ }
+ .card p{
+    color: #757575;
+    font-size: 15px;
+ }
